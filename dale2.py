@@ -4,8 +4,8 @@ import openai
 from aiogram import Dispatcher, Bot, executor, types
 import asyncio
 
-openai.api_key = ("YOR_OPEN_AI_KEY")
-BOT_TOKEN ="YOUR_BOT_TOKEN"
+openai.api_key = ("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")
+BOT_TOKEN ="5938378024:AAHj52bQYnSMKjXYIgPVhxq86B46I_Z2I84"
 
 loop = asyncio.new_event_loop()
 bot  = Bot(BOT_TOKEN, parse_mode='HTML')
